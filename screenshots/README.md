@@ -8,6 +8,7 @@ To help review your infrastructure, please include the following screenshots in 
 https://hub.docker.com/repositories/hoangthainguyen4121
 
 * GitHub repository’s settings showing your Travis webhook (can be found in Settings - Webhook)
+
 * Travis CI showing a successful build and deploy job
 
 ## Kubernetes
@@ -27,3 +28,4 @@ kubectl describe hpa
 ```bash
 kubectl logs {pod_name}
 ```
+
