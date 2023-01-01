@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  POSTGRES_USERNAME: nguyenht10
+  POSTGRES_PASSWORD: hoang4121
+  POSTGRES_HOST: database-2.ci9fsc8ymunc.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: udagram
+  AWS_BUCKET: bucket-udacity
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  URL: http://localhost:8100
