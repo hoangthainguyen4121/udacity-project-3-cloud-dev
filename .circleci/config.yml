@@ -26,7 +26,7 @@ jobs:
             docker tag udagram-api-user hoangthainguyen4121/udagram-api-user:v1
             
             docker build -t udagram-frontend ./udagram-frontend
-            docker tag udagram-frontend hoangthainguyen4121/udagram-frontend:v1
+            docker tag udagram-frontend hoangthainguyen4121/udagram-frontend:v3
             docker build -t udagram-reverseproxy ./udagram-reverseproxy
             docker tag udagram-reverseproxy hoangthainguyen4121/udagram-reverseproxy:v1
             echo "-------- All images succesfully built----------"
@@ -35,7 +35,7 @@ jobs:
             echo "-------------- Pushing images to dockerhub-------"
             docker push hoangthainguyen4121/udagram-api-feed:v1
             docker push hoangthainguyen4121/udagram-api-user:v1
-            docker push hoangthainguyen4121/udagram-frontend:v1
+            docker push hoangthainguyen4121/udagram-frontend:v3
             docker push hoangthainguyen4121/udagram-reverseproxy:v1
 workflows:
   default:
