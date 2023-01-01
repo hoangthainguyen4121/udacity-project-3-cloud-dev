@@ -24,7 +24,7 @@ script:
   - docker tag udagram-api-user hoangthainguyen4121/udagram-api-user:v1
   #udagram-frontend
   - docker build -t udagram-frontend ./udagram-frontend
-  - docker tag udagram-frontend hoangthainguyen4121/udagram-frontend:v1
+  - docker tag udagram-frontend hoangthainguyen4121/udagram-frontend:v3
   #udagram-reverseproxy
   - docker build -t udagram-reverseproxy ./udagram-reverseproxy
   - docker tag udagram-reverseproxy hoangthainguyen4121/udagram-reverseproxy:v1
@@ -33,5 +33,5 @@ after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker push hoangthainguyen4121/udagram-api-feed:v1
   - docker push hoangthainguyen4121/udagram-api-user:v1
-  - docker push hoangthainguyen4121/udagram-frontend:v1
+  - docker push hoangthainguyen4121/udagram-frontend:v3
   - docker push hoangthainguyen4121/udagram-reverseproxy:v1
