@@ -1,31 +1,13 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/hoangthainguyen4121/udacity-project-3-cloud-dev/tree/Main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/hoangthainguyen4121/udacity-project-3-cloud-dev/tree/Main)
 
 # Screenshots
-To help review your infrastructure, please include the following screenshots in this directory::
+Hi, I'm Nguyen. I have follow the whole process again, all the screen shot be in the folders.Thanks.
 
-## Deployment Pipeline
-* DockerHub showing containers that you have pushed
-https://hub.docker.com/repositories/hoangthainguyen4121
+Below are my update to for your feedback
+![image](https://user-images.githubusercontent.com/58350162/210258150-fa824c07-da2c-4055-987e-0e1a9efdb177.png)
 
-* GitHub repository’s settings showing your Travis webhook (can be found in Settings - Webhook)
 
-* Travis CI showing a successful build and deploy job
+![kubectl describe hpa](https://user-images.githubusercontent.com/58350162/210258433-3eda53c4-0c1d-4e6c-bdb2-9762480497de.PNG)
 
-## Kubernetes
-* To verify Kubernetes pods are deployed properly
-```bash
-kubectl get pods
-```
-* To verify Kubernetes services are properly set up
-```bash
-kubectl describe services
-```
-* To verify that you have horizontal scaling set against CPU usage
-```bash
-kubectl describe hpa
-```
-* To verify that you have set up logging with a backend application
-```bash
-kubectl logs {pod_name}
-```
-
+![kubectl logs backend-feed-deployment-79888868c5-ctzh8](https://user-images.githubusercontent.com/58350162/210258487-04cbf463-48a3-42f3-b78d-0efa7c8c1ad1.PNG)
+![kubectl logs backend-user-deployment-68f56c68cb-lch8f](https://user-images.githubusercontent.com/58350162/210258494-38d6222a-4c25-4698-a4fa-5c417d2c1d2b.PNG)
