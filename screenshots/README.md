@@ -1,9 +1,9 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/hoangthainguyen4121/udacity-project-3-cloud-dev/tree/Main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/hoangthainguyen4121/udacity-project-3-cloud-dev/tree/Main)
 
 # Screenshots
-Hi, I'm Nguyen. I have follow the whole process again, all the screen shot be in the folders.Thanks.
+Hi, I'm Nguyen. I have follow the whole process again and all the screenshot be in the folders.Thanks.
 
-Below are my update to for your feedback
+Below are my main update to for your feedback
 ![image](https://user-images.githubusercontent.com/58350162/210258150-fa824c07-da2c-4055-987e-0e1a9efdb177.png)
 
 
